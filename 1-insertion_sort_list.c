@@ -35,7 +35,7 @@ void insertion_sort_list(listint_t **list)
 /**
  * swappy - a little fella to help swap 2 nodes in a dlist
  * @a: ome node
- * @B: other node
+ * @b: other node
  *
  */
 void swappy(listint_t *a, listint_t *b)
