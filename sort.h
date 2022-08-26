@@ -19,9 +19,13 @@ typedef struct listint_s
 	struct listint_s *next;
 } listint_t;
 
-/* Prototypes */
+/* Prototypes for task given to us from Holerton */
 void print_array(const int *array, size_t size);
 void print_list(const listint_t *list);
 void bubble_sort(int *array, size_t size);
+void insertion_sort_list(listint_t **list);
+
+/* My prototypes */
+void swappy(listint_t *a, listint_t *b);
 
 #endif /* SORT_H */
