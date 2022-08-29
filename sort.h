@@ -28,5 +28,9 @@ void selection_sort(int *array, size_t size);
 
 /* My prototypes */
 void swappy(listint_t *a, listint_t *b);
+void swappz_ints(int *a, int *b);
+int lomuto_part(int *array, size_t size, int left, int right);
+void lomuto_sort(int *array, size_t size, int left, int right);
+void quick_sort(int *array, size_t size);
 
 #endif /* SORT_H */
